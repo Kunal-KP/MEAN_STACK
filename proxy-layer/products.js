@@ -11,13 +11,13 @@ module.exports = function(req,res) {
         else {
         console.log('Connection Successful');
         var db = database; 
-        /*db.collection('products').find({},function(err,cursor){
+        db.collection('products').find({},function(err,cursor){
             cursor.toArray(function(err,data){
-                console.log(data);
+                console.log('DDDDD'+JSON.stringify(data));
                 res.json(data);
-                });
-            });*/
+            });
+        })
         }
     });
-    res.sendFile(path.join(__dirname,'..','public/pages/products.html'));
+    //res.sendFile(path.join(__dirname,'..','public/pages/products.html'));
 }

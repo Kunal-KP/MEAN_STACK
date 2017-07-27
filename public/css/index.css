@@ -1,0 +1,30 @@
+.header {
+    text-align: center;
+    margin-top: 15px;
+    text-shadow: 2px 2px 10px white;
+}
+
+.navbar-header {
+    margin-top: 15px !important;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+    min-height: 80px !important;
+}
+
+.navbar-collapse {
+    margin-top: 15px !important;
+}
+
+.navbar-inverse {
+        opacity: 0.88;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-brand {
+        font-size: 30px !important;
+    }
+}
