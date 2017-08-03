@@ -22,9 +22,29 @@
         opacity: 0.88;
 }
 
+.navbar-brand {
+    text-shadow: 2px 1px 1px grey;
+}
 
+.navbar-inverse .navbar-brand {
+    color: white !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white !important;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color : skyblue !important;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: skyblue !important;
+}
 @media (min-width: 768px) {
     .navbar-brand {
         font-size: 30px !important;
+          
     }
 }
+
+
