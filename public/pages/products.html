@@ -10,10 +10,24 @@
    </head>
 
    <body ng-app = "productsApp" ng-controller = "productsCtrl">
-      <div id = "app">
+      <div id = "prod-app">
         <h1>Welcome to Products Page!!!</h1> 
           <h2>{{10 +2}}</h2>
           <h3>{{myText}}</h3>
+          <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Cost</th>
+                </tr>
+            </thead>  
+            <tbody>
+                <tr ng-repeat = "prod in productList track by $index">
+                    <td>{{prod.name}}</td>
+                    <td>{{prod.cost}}</td>
+                </tr>
+            </tbody>
+        </table>
       </div>
    </body>
 

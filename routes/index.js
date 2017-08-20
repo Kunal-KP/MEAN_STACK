@@ -8,5 +8,5 @@ var dbUrl = configs.dbCon.url;
 
 router.get('/', proxy.home);
 router.get('/products', proxy.products);
-
+router.get('/productsPage', proxy.productsPage);
 module.exports = router;

@@ -1,0 +1,50 @@
+.header {
+    text-align: center;
+    margin-top: 15px;
+    text-shadow: 2px 2px 10px white;
+}
+
+.navbar-header {
+    margin-top: 15px !important;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+    min-height: 80px !important;
+}
+
+.navbar-collapse {
+    margin-top: 15px !important;
+}
+
+.navbar-inverse {
+        opacity: 0.88;
+}
+
+.navbar-brand {
+    text-shadow: 2px 1px 1px grey;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white !important;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color : skyblue !important;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: skyblue !important;
+}
+@media (min-width: 768px) {
+    .navbar-brand {
+        font-size: 30px !important;
+          
+    }
+}
+
+
